@@ -1,0 +1,18 @@
+package com.ejercicios;
+
+public class Tema2 {
+
+    public static void main(String[] args) {
+
+        // Crear una función que reciba un precio
+        // y devuelva el precio con el IVA incluido.
+
+        double precioIVA = getPrecioIVA(10);
+
+        System.out.println(precioIVA);
+    }
+
+    private static double getPrecioIVA(double precio){
+        return precio + (precio * 0.21);
+    }
+}
